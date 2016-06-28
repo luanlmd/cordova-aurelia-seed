@@ -1,0 +1,10 @@
+<template>
+  <h1>Test</h1>
+  <form submit.delegate="post()">
+      <input value.bind="user.name"></input>
+      <input value.bind="user.email"></input>
+      <button type="submit">Post</button>
+  </form>
+
+  <div>${fullName}</div>
+</template>
